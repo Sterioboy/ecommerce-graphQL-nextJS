@@ -1,0 +1,33 @@
+{
+  "emmet.includeLanguages": {
+    
+    "javascript": "javascriptreact", 
+    "vue-html": "html", 
+  }, 
+  "emmet.triggerExpansionOnTab": true,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.alwaysShowStatus": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "prettier.disableLanguages": [
+    "javascript",
+    "javascriptreact"
+  ],
+  "workbench.colorCustomizations": {
+    "commandCenter.border": "#15202b99",
+    "editorGroup.border": "#df9ae0",
+    "sash.hoverBorder": "#df9ae0",
+    "titleBar.activeBackground": "#d273d4",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#d273d499",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#d273d4"
+}
